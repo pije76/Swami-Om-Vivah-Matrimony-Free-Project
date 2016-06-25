@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+function getConnection() {
+	$dbhost="127.0.0.1";
+	$dbuser="root";
+	$dbpass="";
+	$dbname="sssvvmdb";
+	$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);	
+	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	return $dbh;
+}
+?>

@@ -1,0 +1,420 @@
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+
+/* ----------------------------------------------loginDiv Form-------------------------------------*/
+
+#header input{
+
+    float:left;
+    width:120px;
+    margin:0 11px 0 0;
+    padding:5px;
+    color:#796464;
+    background-color:#FFDC93;
+    border:1px solid #396B86;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+#header input#btn_login {
+    width:60px;
+    height:auto;
+    margin:0;
+    padding:4px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    background-color:#C00000;
+    cursor:pointer;
+    top: 6px;
+    position: relative;
+    left: 6px;
+}
+
+#captcha{
+    position: relative; top: 6px; left: 6px;
+}
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+
+#menusbar input{
+    display:block;
+    float:left;
+    width:155px;
+    margin:0 5px 0 0;
+    padding:5px;
+    color:#796464;
+    background-color:#FFDC93;
+    border:1px solid #343434;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.acontent input{
+    display:block;
+    float:left;
+    width:160px;
+    margin:0 5px 0 0;
+    padding:9px;
+    color:#796464;
+    background-color:#FFDC93;
+    border:1px solid #343434;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height: 60%;
+}
+.acontent textarea{
+    display:block;
+    float:left;
+    width:155px;
+    margin:0 5px 0 0;
+    padding:5px;
+    color:#796464;
+    background-color:#FFDC93;
+    border:1px solid #343434;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    positio: absolute;
+}	
+.divFloatRight input#goSearch{
+    background-color: #C00000;
+    border-color: #396B86;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin: -4px 0px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    width: 100px;
+    float:left; 
+}	
+.divFloatRight select{	
+    background-color: #FFDC93;
+    border: 1px solid #343434;
+    color: #796464;
+    display: block;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    width: 155px;
+}
+
+#ddldobfrom{	
+    width: 70px;
+}
+#ddldobto{	
+    width: 70px;
+    float: right;
+}
+
+#menusbar input#btn_search_id{
+    width:68px;
+    height:26px;
+    margin:0;
+    padding:4px 0;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    background-color:#C00000;
+    border-color:#396B86;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#cont1,#cont2,#cont3,#cont4,#cont5,#cont6
+{
+    height:30px;
+    background-color:#FEAA55;
+    padding:3px;
+    margin:5px;
+}
+
+.left
+{
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    background-color: yello;
+    height: 18px;
+    bordr: solid 1px;
+    width: 110px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.right
+{
+    float: left;
+    display: table-cell;
+    margin: 2px;
+    padding: 2px;
+    height: 18px;
+    borde: solid 1px;
+    width: 160px;
+}
+
+.mandtory
+{
+    color:blue;
+}
+
+input,select
+{
+    heigh:25px;
+    width: 159px;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - Reg Form - - - - - - - - - - - - - - - - */
+
+
+
+
+#mainContentForm
+{
+    height: 700px;
+    width: 600px;
+    padding: 30px 0 5px 0;
+    position: relative;
+    margin: 0 auto 0;
+    width: 960px
+}
+
+#formContent
+{
+    position: relative;
+    margin: 0 auto 0;
+    display: block;
+    background-color: #FEAA55;
+    height: 700px;
+    width: 940px;
+}
+
+#formContent.title
+{
+    padding: 18px 0px 9px 23px;
+    font-family: Arial Black;
+    color:white;
+    font-size: 27px;
+}
+
+#formContent.acontent
+{
+    height: 585px;
+    width: 940px;
+    background-color: snow;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 9px 9px 9px;
+}
+
+.personalInfo
+{
+    height:  390px;
+    margin-bottom: 3px;
+}
+
+.formtitleWrapper
+{
+    height:30px;
+    background-color: #FEAA55;
+}
+
+.formtitle
+{
+    color: black;
+    font-family: Arial Black;
+    font-size: 15px;
+    height: 23px;
+    margin: 0 auto;
+    text-align: center;
+    width: 246px;
+}
+
+.performDiv
+{
+    height:34px;
+    border-bottom: 1px #FEAA55 solid;
+    padding:3px;
+    margin:5px;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.rights
+{
+    width: 280px;
+    display: table-cell;
+    float: left;
+    height: 18px;
+    margin: 2px;
+    padding: 2px;
+}	
+
+.lefts
+{
+    float: left;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 15px;
+    height: 18px;
+    margin: 2px;
+    padding: 2px;
+    width: 166px;
+}	
+
+.performDiv select {
+    background-color: #FFDC93;
+    border: 1px solid #343434;
+    color: #796464;
+    display: block;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    width: 80px;
+}	
+
+.occupationInfo
+{
+    height: 167px;
+}
+
+.centerDiv{
+    width: 60%; 
+    padding: 6px; 
+    position:relative; 
+    left: 20%;
+    height: 95%; 
+    background-color: #FEAA55;
+    margin: 5px;
+    top: -21px;
+}
+.leftCenterDiv{
+    float: left;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 17px;
+    height: 18px;
+    margin: 2px;
+    padding: 3px;
+    width: 37%;
+}
+.rightCenterDiv{
+    width: 280px;
+    display: table-cell;
+    float: left;
+    height: 18px;
+    margin: -2px;
+    padding: 2px;
+}
+.otherInfo
+{
+    height:120px;
+    margin-bottom: 3px;
+
+}
+
+.aboutmyselfInfo
+{
+    height:162px;
+    margin-bottom: 3px;
+}
+
+.familyInfo
+{
+    height:297px;
+    margin-bottom: 3px;
+}
+
+.refrencesInfo
+{
+    height:166px;
+}
+
+.refrencesInfo
+{
+    height:165px;
+
+}
+
+.horoscopeInfo
+{
+    height:210px;
+}
+
+.expectationInfo
+{
+    height:445px;
+}
+
+.kundaliInfo
+{
+    height:553px;
+}
+
+#reg_button
+{
+    color: black;
+    font-family: Arial Black;
+    font-size: 15px;
+    height: 61px;
+    margin: 0 auto;
+    text-align: center;
+    width: 246px;
+    position: relative;
+    left: 49px;
+    top: 50px;
+}
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #a11b1b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ba3032), to(#a11b1b));
+    background: -webkit-linear-gradient(top, #ba3032, #a11b1b);
+    background: -moz-linear-gradient(top, #ba3032, #a11b1b);
+    background: -ms-linear-gradient(top, #ba3032, #a11b1b);
+    background: -o-linear-gradient(top, #ba3032, #a11b1b);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #f2eaf2;
+    font-size: 12px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.button:hover {
+    border-top-color: #f00c0c;
+    background: #f00c0c;
+    color: #0f0d0f;
+}
+
+
+.button:active {
+    border-top-color: #6e99c4;
+    background: #6e99c4;
+}
+
+/*-- - - - - - - - - - - - - - - - - - - - - - - - Forgot Password - - - - - - - - - - - - - - - - - */
+.submitButtonDiv input#submit{
+    background-color: #C00000;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    left: 68%;
+    margin: -30%;
+    padding: 4px 0;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;  
+    height: auto;
+}

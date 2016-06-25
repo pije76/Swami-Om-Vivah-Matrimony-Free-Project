@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/sssvvsm/!svn/ver/15/trunk/api
+END
+validSessionCheck.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sssvvsm/!svn/ver/12/trunk/api/validSessionCheck.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sssvvsm/!svn/ver/12/trunk/api/.htaccess
+END
+dbConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sssvvsm/!svn/ver/12/trunk/api/dbConnection.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sssvvsm/!svn/ver/16/trunk/api/index.php
+END
